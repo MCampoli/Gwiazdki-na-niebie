@@ -3,7 +3,7 @@
 Prosta aplikacja okienkowa w C++ z wykorzystaniem SDL i SDL_image, umożliwiająca rysowanie gwiazdek na ekranie.
 
 ## Zrzut z ekranu
-![Zrzut ekranu aplikacji](Gwiazdki na niebie/Zrzut_ekranu.png)
+![Zrzut ekranu aplikacji](Gwiazdki_na_niebie/Zrzut_ekranu.png)
 ## Funkcjonalności
 - Rysowanie gwiazdek lewym przyciskiem myszy.
 - Czyszczenie ekranu prawym przyciskiem myszy.
