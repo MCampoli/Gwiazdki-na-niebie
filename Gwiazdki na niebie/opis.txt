@@ -1,0 +1,15 @@
+Dokumantacja projektowa "Gwiazdki z nieba"
+
+Celem projektu jest stworzenie prostej aplikacji okienkowej z wykorzystaniem biblioteki SDL oraz SDL_image, 
+umożliwiającej rysowanie gwiazdek na ekranie. Gwiazdki mają być "umieszczane" w ekranie za pomocą myszki,
+a użytkownik ma możliwość czyszczenia ekranu.
+
+
+Interfejs Użytkownika
+
+Rysowanie gwiazdek odbywa się poprzez kliknięcie lewym przyciskiem myszy w dowolnym miejscu na ekranie.
+Czyszczenie ekranu z gwiazdek odbywa się poprzez kliknięcie prawym przyciskiem myszy.
+Gwiazdki są rysowane na aktualnym tle, więc każde dodanie gwiazdki nie usuwa poprzednich.
+
+Tło ekranu jest jasnoniebieskie (kolor RGB: 173, 216, 230).
+Gwiazdki mają kolor zależny od obrazka "star.png"

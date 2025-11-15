@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1705862318 source:c:\users\monika\desktop\projekt\project\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+
+1705862318 source:c:\users\monik\onedrive\dokumenty\project\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+
