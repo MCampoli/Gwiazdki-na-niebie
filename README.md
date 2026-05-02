@@ -1,20 +1,12 @@
-# Gwiazdki na niebie
+# "Gwiazdki na niebie"
 
-Prosta aplikacja okienkowa w C++ z wykorzystaniem SDL i SDL_image, umożliwiająca rysowanie gwiazdek na ekranie.
+Interaktywna aplikacja desktopowa typu GUI zbudowana w języku C++ z wykorzystaniem bibliotek graficznych SDL2 oraz SDL_image. Projekt demonstruje praktyczne zastosowanie paradygmatu programowania obiektowego (OOP) w kontekście renderowania grafiki 2D w czasie rzeczywistym oraz zaawansowanej obsługi zdarzeń użytkownika.
 
-## Zrzut z ekranu
-![Screenshot Projektu](./Zrzut_ekranu.png)
-## Funkcjonalności
-- Rysowanie gwiazdek lewym przyciskiem myszy.
-- Czyszczenie ekranu prawym przyciskiem myszy.
-- Interaktywny interfejs użytkownika z grafiką 2D.
-- Prosty sposób eksperymentowania z obsługą zdarzeń myszy.
-
-## Technologie
-- C++
-- SDL, SDL_image
-- Programowanie grafiki 2D
-- Obsługa zdarzeń i interfejs użytkownika
+## Technologie i narzędzia
+Język: C++ (standard C++17/20).  
+Grafika: SDL2, SDL_image (obsługa tekstur PNG).  
+Środowisko: Visual Studio / Visual Studio Code. 
+Zarządzanie pamięcią: dynamiczne struktury danych (std::vector).
 
 ## Instrukcja uruchomienia
 1. Upewnij się, że biblioteki SDL i SDL_image są zainstalowane.  
@@ -23,11 +15,14 @@ Prosta aplikacja okienkowa w C++ z wykorzystaniem SDL i SDL_image, umożliwiają
    - Lewy przycisk myszy – rysowanie gwiazdki  
    - Prawy przycisk myszy – czyszczenie ekranu  
 
-## Umiejętności rozwinięte
-- Programowanie w C++  
-- Grafika 2D i renderowanie obiektów  
-- Obsługa zdarzeń myszy i interfejsu użytkownika  
-- Tworzenie prostej, interaktywnej aplikacji GUI
+## Kluczowe Funkcjonalności
+- Dynamiczne renderowanie: Generowanie obiektów (gwiazdek) na warstwie graficznej w miejscu kliknięcia użytkownika.  
+- System Event Handling: Obsługa zdarzeń wejścia (myszy) – lewy przycisk (dodawanie obiektu), prawy przycisk (czyszczenie bufora danych).  
+- Zarządzanie zasobami: Implementacja poprawnego cyklu życia tekstur i renderera (inicjalizacja, renderowanie, bezpieczne zwalnianie pamięci/Memory Management).  
+- Double Buffering: Wykorzystanie mechanizmu SDL_RenderPresent dla płynności wyświetlania obrazu.
+
+## Zrzut z ekranu
+![Screenshot Projektu](./Zrzut_ekranu.png)
 
 ## Autor
 Monika Campoli
